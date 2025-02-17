@@ -14,9 +14,7 @@ For more details, see [GitHub Docs: Creating a Default Community Health File](ht
 
 Our Pull Request template emphasizes security considerations in daily development, covering both software and infrastructure changes.
 
-## GitHub Actions Workflows
+## GitHub Actions Workflow Templates
 
-We also include GitHub Actions workflows and workflow templates aimed at strengthening security across repositories.
-
-- **Reusable Workflows**: Centrally defined workflows that can be referenced by any repostitory. You can find them in the [`.github/workflows`](.github/workflows) directory.
-- **Workflow Templates**: Can be accessed easily from the GitHub UI when creating a new workflow.
+We also include GitHub Actions workflow templates aimed at strengthening security across repositories. 
+Workflow Templates can be accessed easily from the GitHub UI when creating a new workflow.

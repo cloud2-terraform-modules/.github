@@ -13,14 +13,14 @@ permissions:
 
 jobs:
   scan-and-fail:
-    uses: Cloud2fi/.github/.github/workflows/trivy-iac-scan.yml@main
+    uses: Cloud2fi/.github-actions/.github/workflows/trivy-iac-scan.yml@main
     with:
       advanced-security-enabled: false  # Prints results to the console
       severity: 'HIGH,CRITICAL'         # Possible values: UNKNOWN, LOW, MEDIUM, HIGH, CRITICAL
       hard-fail: true                   # Fails the workflow if Trivy finds vulnerabilities
 
   scan-and-report:
-    uses: Cloud2fi/.github/.github/workflows/trivy-iac-scan.yml@main
+    uses: Cloud2fi/.github-actions/.github/workflows/trivy-iac-scan.yml@main
     with:
       advanced-security-enabled: true               # Generates a SARIF file and uploads to Advanced Security. Requires AS to be enabled in the repository.
       severity: 'UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL'  # Uploads all findings to Advanced Security
