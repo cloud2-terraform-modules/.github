@@ -1,0 +1,5 @@
+{
+  "name": "Cloud2 Deppendency Review",
+  "description": "Reviews dependencies introduced in a pull request. Requires GitHub Advanced Security to be enabled in the repository.",
+  "iconName": "octicon package-dependencies"
+}
