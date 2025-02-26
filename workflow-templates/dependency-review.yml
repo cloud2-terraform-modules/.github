@@ -1,0 +1,11 @@
+name: Dependency Review
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  dependency-review:
+    uses: Cloud2fi/.github-actions/.github/workflows/dependency-review.yml@main
