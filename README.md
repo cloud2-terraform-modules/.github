@@ -16,5 +16,6 @@ Our Pull Request template emphasizes security considerations in daily developmen
 
 ## GitHub Actions Workflow Templates
 
-We also include GitHub Actions workflow templates aimed at strengthening security across repositories. 
-Workflow Templates can be accessed easily from the GitHub UI when creating a new workflow.
+We also include GitHub Actions workflow templates aimed at strengthening security across repositories. Workflow Templates can be accessed easily from the GitHub UI when creating a new workflow. 
+
+We have default templates for Pull Requests and Main Pushes.

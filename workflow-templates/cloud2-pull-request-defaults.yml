@@ -1,0 +1,17 @@
+name: pull request
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+  security-events: read
+
+jobs:
+  cloud2-pull-request-defaults:
+    uses: Cloud2fi/.github-actions/.github/workflows/cloud2-pull-request-defaults.yml@main
+#    with:
+#      iac-severity: 'HIGH,CRITICAL' # Allowed values: UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL. Default is 'HIGH,CRITICAL'.
+#      iac-hard-fail: true # Set to false to allow PRs with IaC issues pass. Default is true.

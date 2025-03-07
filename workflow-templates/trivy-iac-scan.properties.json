@@ -1,5 +1,0 @@
-{
-  "name": "Cloud2 Trivy IaC Scan",
-  "description": "Scans IaC files with Trivy. Detect configuration issues in Terraform, CloudFormation, Docker and Kubernetes.",
-  "iconName": "octicon shield-check"
-}

@@ -1,0 +1,5 @@
+{
+  "name": "Cloud2 Pull Request Defaults",
+  "description": "Default workflow for pull requests in Cloud2 repositories.",
+  "iconName": "octicon shield-check"
+}

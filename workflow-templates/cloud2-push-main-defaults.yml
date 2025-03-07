@@ -1,0 +1,16 @@
+name: push main
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: read
+  actions: read
+  security-events: write
+
+jobs:
+  cloud2-push-main-defaults:
+    uses: Cloud2fi/.github-actions/.github/workflows/cloud2-push-main-defaults.yml@main

@@ -1,0 +1,5 @@
+{
+  "name": "Cloud2 Push Main Defaults",
+  "description": "Default workflow for main pushes in Cloud2 repositories.",
+  "iconName": "octicon shield-check"
+}
