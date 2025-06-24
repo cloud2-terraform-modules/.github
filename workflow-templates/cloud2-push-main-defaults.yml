@@ -13,4 +13,4 @@ permissions:
 
 jobs:
   cloud2-push-main-defaults:
-    uses: Cloud2fi/.github-actions/.github/workflows/cloud2-push-main-defaults.yml@main
+    uses: cloud2-platform/github-actions/.github/workflows/cloud2-push-main-defaults.yml@main
